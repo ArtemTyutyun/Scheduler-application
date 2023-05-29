@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/main.css';
 
 function Input({ onSave }) {
   const [taskName, setTaskName] = useState('');
