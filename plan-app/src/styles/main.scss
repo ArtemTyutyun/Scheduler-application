@@ -1,0 +1,21 @@
+@import 'input.scss';
+@import 'calendar.scss';
+@import 'list.scss';
+
+.h1-MyPlans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+    margin-top: 80px;
+    color: white;
+}
+
+.App-div {
+   width: 1920px; 
+}
+
+.body {
+    background-image: url('../png/background.jpg');
+    background-size: cover;
+}

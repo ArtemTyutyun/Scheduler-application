@@ -1,0 +1,109 @@
+.planInput:focus {
+  outline: none;
+  border-color: #0000ff;
+}
+
+.planInput {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  border: 3px solid #808080;
+  border-radius: 5px;
+  padding: 15px;
+  width: 500px;
+}
+
+.button {
+  margin-left: 73%;
+  margin-top: 73px;
+  padding: 10px;
+  border: 3px solid #808080;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  background-color: #ffffff;
+}
+
+.calendar-input {
+  border: 3px solid #808080;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.calendar-input:focus {
+  outline: none;
+  border-color: #0000ff;
+}
+
+.calendar {
+  position: absolute;
+  top: 20%;
+  left: 56%;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 10%;
+}
+
+.plans-of-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8%;
+}
+
+.date-header {
+  position: absolute;
+  top: 30%;
+  color: white;
+}
+
+.delete {
+  border: 3px solid #808080;
+  padding: 10px;
+  margin-left: 500px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.edit {
+  border: 3px solid #808080;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 3px solid gray;
+  padding: 20px;
+  color: white;
+}
+
+.h1-MyPlans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7%;
+  margin-top: 80px;
+  color: white;
+}
+
+.App-div {
+  width: 1920px;
+}
+
+.body {
+  background-image: url("../png/background.jpg");
+  background-size: cover;
+}/*# sourceMappingURL=main.css.map */
